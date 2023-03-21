@@ -1,5 +1,5 @@
-module.exports.sanityCheck = () => { 
+module.exports.getExactlyWhatIPassedIn = (something) => { 
     console.log('Hello Mars ;)');
 
-    return true;
+    return something;
 }
